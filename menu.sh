@@ -5,7 +5,7 @@ export FILENAME="Alumnos_info"
 if [ "$1" == "-d" ]; then
    echo "Destruyendo el entorno"
    pkill -f "consolidar.sh" 2>/dev/null
-   rm -rf $HOME/EPNro1/*
+   rm -rf $HOME/EPNro1
    echo "Entorno eliminado y procesos detenidos"
    exit 0
 fi
